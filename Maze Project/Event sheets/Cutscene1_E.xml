@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Cutscene1_E</name>
+    <events>
+        <variable constant="0" name="TextNo" sid="690721179533809" static="0" type="number">0</variable>
+        <event-block sid="914114233025680">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="678490196526714" type="System" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="768251416543693" type="GuanYu">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="847690029501782" type="JuGeLiang">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="726892325919888" type="System">
+                    <param id="0" name="Variable">TextNo</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="929522220813906">
+            <conditions>
+                <condition id="0" name="On any touch start" sid="375431035466406" type="Touch" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="203334613537374">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="259493541037486" type="System">
+                            <param id="0" name="Variable">GameState</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">16</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="330915480738720" type="System">
+                            <param id="0" name="Variable">TextNo</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="817824485009163">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="803037107424879" type="System">
+                    <param id="0" name="Variable">TextNo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="850922432047410" type="Text2">
+                    <param id="0" name="Text">&quot;故事題要&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="321803807391305">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="322618018910534" type="System">
+                    <param id="0" name="Variable">TextNo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="469348424393347" type="Text2">
+                    <param id="0" name="Text">&quot;關羽率兵進攻敵軍城門，不料中了敵軍的陷阱，自己失去了力量，&quot;&amp;  newline &amp; &quot;赤兔馬的速度也變慢了。好不容易從敵軍脫身，&quot;&amp;  newline &amp;  &quot;現在正在與諸葛亮討論對策。&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="895782270719100">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="596616075108054" type="System">
+                    <param id="0" name="Variable">TextNo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="991802832389951" type="Text2">
+                    <param id="0" name="Text">&quot; 對不起，我太大意了，居然中了敵方的技倆。&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="686174441206925" type="GuanYu">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="798004640773128">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="122431998092762" type="System">
+                    <param id="0" name="Variable">TextNo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="813260133535557" type="Text2">
+                    <param id="0" name="Text">&quot; 現在沒時間懊悔了，現在應該要趕緊取回你和赤兔馬的力量。&quot;</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="943982419463035" type="GuanYu">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+                <action id="-15" name="Set visible" sid="238310009585740" type="JuGeLiang">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="292707729179545">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="419153514776432" type="System">
+                    <param id="0" name="Variable">TextNo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="236497253127584" type="Text2">
+                    <param id="0" name="Text">&quot;取回力量?這話是甚麼意思?&quot;</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="372152516100739" type="GuanYu">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="176574132577547" type="JuGeLiang">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="387095941574242">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="624397914477769" type="System">
+                    <param id="0" name="Variable">TextNo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="559505158546330" type="Text2">
+                    <param id="0" name="Text">&quot;雖然不知道詳細情形，但是敵軍&quot; &amp; newline &amp; &quot;把你和赤兔馬的力量封印再寶珠裡了。&quot;</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="583215101813283" type="GuanYu">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="232389573492727" type="JuGeLiang">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="680966968059032">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="797784935070732" type="System">
+                    <param id="0" name="Variable">TextNo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="263450935022589" type="Text2">
+                    <param id="0" name="Text">&quot;什麼!?&quot;</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="236204719015064" type="GuanYu">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="419645330764046" type="JuGeLiang">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="222227586317110">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="405672080894711" type="System">
+                    <param id="0" name="Variable">TextNo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="679923764306837" type="Text2">
+                    <param id="0" name="Text">&quot;我知道這聽起來不合理論，&quot; &amp; newline &amp; &quot;總之你和赤兔馬只要找到寶珠，觸碰它們，&quot;&amp; newline &amp;&quot; 你和赤兔馬的力量就會回復。&quot;</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="188962963649741" type="GuanYu">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="615078464554178" type="JuGeLiang">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="819341954232684">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="805391627749110" type="System">
+                    <param id="0" name="Variable">TextNo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">8</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="751171142855702" type="Text2">
+                    <param id="0" name="Text">&quot;原來如此。那，那些寶珠在哪裡?&quot;</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="589819683526252" type="GuanYu">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="540694421150472" type="JuGeLiang">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="563124415137455">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="906064272629159" type="System">
+                    <param id="0" name="Variable">TextNo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="702261837676883" type="Text2">
+                    <param id="0" name="Text">&quot;在敵軍的管轄下的原野，現在他們還在休息，&quot; &amp; newline &amp; &quot;要奪回寶珠也只能趁現在了。&quot;</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="264569842186976" type="GuanYu">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="841512830787460" type="JuGeLiang">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="122087160631406">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="484119799588767" type="System">
+                    <param id="0" name="Variable">TextNo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="283551914233955" type="Text2">
+                    <param id="0" name="Text">&quot;嗯，我這就去準備奪回寶珠。&quot;</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="892517520095303" type="GuanYu">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="676550459082731" type="JuGeLiang">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="788331347450670">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="610016768935194" type="System">
+                    <param id="0" name="Variable">TextNo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">11</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="391437503803419" type="Text2">
+                    <param id="0" name="Text">&quot;請注意路上還有山賊，現在如果遇上了你沒有辦法應戰。&quot;</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="633310276728190" type="GuanYu">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="211198115115023" type="JuGeLiang">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="328212133160220">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="829509946055970" type="System">
+                    <param id="0" name="Variable">TextNo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">12</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="660613513079084" type="Text2">
+                    <param id="0" name="Text">&quot;知道了，我會小心的。&quot;</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="235652248152928" type="GuanYu">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="351252548770833" type="JuGeLiang">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="477463078328493">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="684016711117939" type="System">
+                    <param id="0" name="Variable">TextNo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">13</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="280332675462737" type="Text2">
+                    <param id="0" name="Text">&quot;操作方法&quot; &amp; newline &amp; &quot;用十字鍵操作關羽，找出綠色寶珠和紅色寶珠。碰觸到山賊遊戲就&quot;&amp; newline &amp; &quot;會結束。&quot;</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="427659566763870" type="GuanYu">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="754174673774510" type="JuGeLiang">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="897719195847825">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="945683068708492" type="System">
+                    <param id="0" name="Variable">TextNo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">14</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="241329007173042" type="Text2">
+                    <param id="0" name="Text"> &quot;取到紅色寶珠時赤兔馬就會變快、&quot;&amp;newline&amp; &quot;按住Ctrl鍵可以加速。&quot;</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="533991456726995" type="GuanYu">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="820143764344427" type="JuGeLiang">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="291094039639808">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="588699885242999" type="System">
+                    <param id="0" name="Variable">TextNo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">15</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="656603357523131" type="Text2">
+                    <param id="0" name="Text"> &quot;取到綠色寶珠後關羽觸碰到敵人時可消滅敵人，&quot;&amp;newline&amp;&quot;並且諸葛亮會在起點出現。&quot;&amp;newline&amp;&quot;取完寶珠後回到諸葛亮所在之處就算遊戲成功。&quot;</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="989160131567478" type="GuanYu">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="512260012161622" type="JuGeLiang">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="748976888442011">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="904947024900495" type="System">
+                    <param id="0" name="Variable">TextNo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">16</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="767887992444174" type="System">
+                    <param id="0" name="Layout">Game</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

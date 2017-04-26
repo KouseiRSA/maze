@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Win_E</name>
+    <events>
+        <event-block sid="621340600350652">
+            <conditions>
+                <condition id="0" name="On clicked" sid="957554116954126" type="Button2" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="937996982664149">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="366055154556749" type="Button2">
+                            <param id="0" name="Instance variable">btn</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="175684923239816" type="System">
+                            <param id="0" name="Layout">Game</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="652483728788911">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="526523190950361" type="Button2">
+                            <param id="0" name="Instance variable">btn</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="742555260490393" type="System">
+                            <param id="0" name="Layout">Start</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

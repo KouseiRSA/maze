@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Start_E</name>
+    <events>
+        <event-block sid="344496379357547">
+            <conditions>
+                <condition id="0" name="On clicked" sid="231350890775629" type="Button" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="848786613346636">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="130743230362175" type="Button">
+                            <param id="0" name="Instance variable">btn</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="354713096098769" type="System">
+                            <param id="0" name="Layout">Cutscene1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

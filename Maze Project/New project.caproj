@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>ja5s9qxws5wy</unique-id>
+    <saved-with-version>24400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="NinePatch" version="1">9-patch</plugin>
+        <plugin author="Rex.Rainbow" id="Rex_LayoutFreezer" version="0.100000001">Layout freezer</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Sprite" sid="163184407668284">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="771692466793967" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="961984909851128">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="413012687317248" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\GameMakingData\AVGassets\bg\2.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="718040556415555">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Button" sid="674039750218329">
+            <plugin id="Button" />
+            <instance-variables>
+                <instance-variable name="btn" sid="111300974878611" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="TextBox" sid="607931043458461">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="Text" sid="415477547780790">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="BG" sid="882504804189629">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="227458754506194" speed="5">
+                    <frame duration="1" hotspotX="0.500222" hotspotY="0.5" original-source="E:\GameMakingData\AVGassets\bg\4.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="9patch" sid="512568430871879">
+            <plugin id="NinePatch" />
+            <texture original-source="C:\Users\student\Desktop\#1\#1\assets\ui\chatballoondeal.png" />
+        </object-type>
+        <object-type name="Text2" sid="719630315118064">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="GuanYu" sid="236427424684672">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="308024152285151" speed="5">
+                    <frame duration="0" hotspotX="0.501424" hotspotY="0.5" original-source="E:\GameMakingData\maze素材\角色\關公_立繪.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="JuGeLiang" sid="821558894570780">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="667630552784930" speed="0">
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.501416" original-source="E:\GameMakingData\maze素材\角色\諸葛亮_立繪.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tilemap" sid="976164093417918">
+            <plugin id="Tilemap" />
+            <texture original-source="E:\GameMakingData\maze素材\地形\地形.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Wall" sid="127498239012986">
+            <plugin id="Tilemap" />
+            <texture original-source="E:\GameMakingData\maze素材\地形\地形.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Tilemap2" sid="478746207040706">
+            <plugin id="Tilemap" />
+            <texture original-source="E:\GameMakingData\maze素材\地形\地形.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Tilemap3" sid="524174795776753">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="756650999399915">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="E:\GameMakingData\maze素材\地形\地形.png" />
+            <tiles />
+        </object-type>
+        <object-type name="player" sid="601698814563401">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="872461236803088">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="806997738322650">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
+            <container>
+                <type>player</type>
+                <type>Playersk</type>
+            </container>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="664587141375789" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="playerSkin" sid="840071259735138">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="444909156965232" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Playersk" sid="594864714146622">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="407751069290398">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <container>
+                <type>player</type>
+                <type>Playersk</type>
+            </container>
+            <animation-folder>
+                <animation framecount="3" loop="1" name="up" pingpong="0" repeatcount="1" repeatto="0" sid="582067026977626" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="3" loop="1" name="down" pingpong="0" repeatcount="1" repeatto="0" sid="829741563045723" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="3" loop="1" name="left" pingpong="0" repeatcount="1" repeatto="0" sid="919601056874733" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="3" loop="1" name="right" pingpong="0" repeatcount="1" repeatto="0" sid="430121862889439" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="266414729122490">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="gate" sid="993904029223720">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="id" sid="624432672786180" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Solid" sid="823768730110208">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="24" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="756944590915901" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Item" sid="704167468946321">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="id" sid="471464029540151" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="32" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="135320601015128" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="0" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="LayoutFreezer" sid="355576358143468">
+            <plugin id="Rex_LayoutFreezer" />
+        </object-type>
+        <object-type name="enemy" sid="421968606981564">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="type" sid="181538243054856" type="number" />
+                <instance-variable name="dir" sid="392619386513127" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="8Direction" sid="618776060013194">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <container>
+                <type>enemy</type>
+                <type>enemyskin</type>
+            </container>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="570400617927461" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="enemyskin" sid="899019503827340">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="802047866423324">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <container>
+                <type>enemy</type>
+                <type>enemyskin</type>
+            </container>
+            <animation-folder>
+                <animation framecount="3" loop="0" name="up" pingpong="0" repeatcount="1" repeatto="0" sid="216280237072441" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="3" loop="0" name="down" pingpong="0" repeatcount="1" repeatto="0" sid="470563011993795" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.131944" y="0.0742188" />
+                            <point x="0.5" y="0.046875" />
+                            <point x="0.875" y="0.0703125" />
+                            <point x="0.875" y="0.929688" />
+                            <point x="0.5" y="0.964844" />
+                            <point x="0.118056" y="0.933594" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="3" loop="0" name="right" pingpong="0" repeatcount="1" repeatto="0" sid="623374124658754" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="3" loop="0" name="left" pingpong="0" repeatcount="1" repeatto="0" sid="452565688836959" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="5" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="洞穴背景" sid="697471772724033">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="740149069597693" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\GameMakingData\maze素材\背景\洞穴背景.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="gameover" sid="630451869045129">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="155804043085250" speed="5">
+                    <frame duration="1" hotspotX="0.501235" hotspotY="0.5" original-source="E:\GameMakingData\maze素材\ui\gameover.png">
+                        <collision-poly>
+                            <point x="0.0395062" y="0.195122" />
+                            <point x="0.953086" y="0.231707" />
+                            <point x="0.987654" y="0.5" />
+                            <point x="0.945679" y="0.731707" />
+                            <point x="0.498765" y="0.939024" />
+                            <point x="0.0320988" y="0.841463" />
+                            <point x="0.0123457" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Button2" sid="851282159632826">
+            <plugin id="Button" />
+            <instance-variables>
+                <instance-variable name="btn" sid="614386296366766" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="JuGeLiangG" sid="420736968847897">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="915194198883899" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="947213138278732">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="390059931179376" speed="5">
+                    <frame duration="1" hotspotX="0.500375" hotspotY="0.5" original-source="E:\GameMakingData\AVGassets\bg\6.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mission_clear" sid="385525860983660">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="872675676648430" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\GameMakingData\maze素材\ui\mission_clear.png">
+                        <collision-poly>
+                            <point x="0.0388889" y="0.159091" />
+                            <point x="0.991667" y="0.0340909" />
+                            <point x="0.991667" y="0.965909" />
+                            <point x="0.00277778" y="0.988636" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Start.xml</layout>
+        <layout>Cutscene1.xml</layout>
+        <layout>Game.xml</layout>
+        <layout>Gameover.xml</layout>
+        <layout>Win.xml</layout>
+        <layout>Cutscene2.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Start_E.xml</event-sheet>
+        <event-sheet>Cutscene1_E.xml</event-sheet>
+        <event-sheet>Game_E.xml</event-sheet>
+        <event-sheet>Gameover_E.xml</event-sheet>
+        <event-sheet>Win_E.xml</event-sheet>
+        <event-sheet>Cutscene2_E.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="1">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Keyboard" uid="13" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
